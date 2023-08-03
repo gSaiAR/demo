@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  margin: 5px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  color: aliceblue;
+  border: none;
+  height: 8vh;
+  width: 15vw;
+}
+span {
+  background-color: aqua;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+}
+/* styles.css */
+/* ...Existing styles... */
+
+/* Media query for small devices (up to 768px) */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Media query for medium devices (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .App {
+    /* Make any additional adjustments for medium devices here */
+  }
+}
+
+/* Media query for large devices (1025px and above) */
+@media (min-width: 1025px) {
+  .App {
+    /* Make any additional adjustments for large devices here */
+  }
+}
